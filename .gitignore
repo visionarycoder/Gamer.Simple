@@ -6,3 +6,5 @@
 /vc/obj
 /vc.Clients.ConsoleApp/obj
 /vc.Clients.Common/obj
+/vc.Components/obj/Debug/net6.0
+/vc.Resource.DataSource/obj/Debug/net6.0
