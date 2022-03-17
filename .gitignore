@@ -8,3 +8,11 @@
 /vc.Clients.Common/obj
 /vc.Components/obj/Debug/net6.0
 /vc.Resource.DataSource/obj/Debug/net6.0
+/VisionaryCoder.Resource.DataSource/obj
+/VisionaryCoder.Framework.Tests/bin/Debug/net6.0
+/VisionaryCoder.Framework.Tests/obj
+/VisionaryCoder.Framework/bin/Debug/net6.0
+/VisionaryCoder.Framework/obj
+/VisionaryCoder.Components/obj
+/VisionaryCoder.Clients.ConsoleApp/obj
+/VisionaryCoder.Clients.Common/obj
