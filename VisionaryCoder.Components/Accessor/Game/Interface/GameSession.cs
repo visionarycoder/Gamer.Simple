@@ -1,4 +1,4 @@
-﻿namespace vc.Components.Accessor.Game.Interface
+﻿namespace VisionaryCoder.Components.Accessor.Game.Interface
 {
 
 	public class GameSession

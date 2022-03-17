@@ -1,7 +1,7 @@
 using System.ComponentModel.DataAnnotations;
 using System.Data;
 
-namespace vc.Components.Manager.Game.Interface
+namespace VisionaryCoder.Components.Manager.Game.Interface
 {
 
     public interface IGameManager

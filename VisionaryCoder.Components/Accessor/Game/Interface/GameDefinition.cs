@@ -1,8 +1,7 @@
-﻿namespace vc.Components.Accessor.Game.Interface
+﻿namespace VisionaryCoder.Components.Accessor.Game.Interface
 {
-
-    internal class GameDefinition
-    {
+	public class GameDefinition 
+	{
 
 		public Guid Id { get; init; }
 		public string Name { get; init; } = string.Empty;

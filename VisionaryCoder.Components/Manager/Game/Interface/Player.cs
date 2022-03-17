@@ -1,4 +1,4 @@
-﻿namespace vc.Components.Manager.Game.Interface
+﻿namespace VisionaryCoder.Components.Manager.Game.Interface
 {
     public class Player
     {

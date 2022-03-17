@@ -1,6 +1,6 @@
-﻿using vc.Components.Engine.InputValidating.Interface;
+﻿using VisionaryCoder.Components.Engine.InputValidating.Interface;
 
-namespace vc.Components.Engine.InputValidating.Service
+namespace VisionaryCoder.Components.Engine.InputValidating.Service
 {
 	internal class InputValidatingEngine : IInputValidatingEngine
 	{

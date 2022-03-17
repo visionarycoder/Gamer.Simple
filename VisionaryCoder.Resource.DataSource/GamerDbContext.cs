@@ -14,13 +14,13 @@ namespace VisionaryCoder.Resource.DataSource
 			ConnectionString = connectionString;
 		}
 
-		public DbSet<BoardGameDefinition> GameDefinitions { get; set; }
+		public DbSet<BoardGameDefinition> BoardGameDefinitions { get; set; }
+		public DbSet<CardGameDefinition> CardGameDefinitions { get; set; }
 		public DbSet<GameSession> GameSessions { get; set; }
-
 		public DbSet<GamePiece> GamePieces { get; set; }
-		public DbSet<Card> GameCards { get; set; }
-
+		public DbSet<Card> Cards { get; set; }
 		public DbSet<Player> Players { get; set; }
+		public DbSet<Board> Boards { get; set; }
 
 	}
 

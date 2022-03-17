@@ -1,10 +1,8 @@
-﻿using System;
-using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel.DataAnnotations;
 using System.Data;
-using System.Threading.Tasks;
-using Gamer.Manager.Game.Interface;
+using VisionaryCoder.Components.Manager.Game.Interface;
 
-namespace vc.Clients.ConsoleApp
+namespace VisionaryCoder.Clients.ConsoleApp
 {
 
     public class ConsoleClient

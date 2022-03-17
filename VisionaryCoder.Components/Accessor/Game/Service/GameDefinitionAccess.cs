@@ -1,6 +1,10 @@
-﻿namespace vc.Components.Accessor.Game.Service
+﻿using VisionaryCoder.Components.Accessor.Game.Interface;
+
+namespace VisionaryCoder.Components.Accessor.Game.Service
 {
-	internal class GameDefinitionAccess
+	
+	internal class GameDefinitionAccess : IGameDefinitionAccess
 	{
 	}
+
 }

@@ -1,16 +1,16 @@
 ﻿using System.Reflection;
 using System.Text;
 
-namespace vc.Components.Accessor.Player.Service.Helpers
+namespace VisionaryCoder.Components.Accessor.Player.Service.Helpers
 {
 	internal static class PlayerEx
 	{
 
-		public static Interface.Player Convert(this VisionaryCoder.Resource.DataSource.Model.Player source)
+		public static Interface.BoardGamePlayer Convert(this VisionaryCoder.Resource.DataSource.Model.Player source)
 		{
-			var target = new Interface.Player
+			var target = new Interface.BoardGamePlayer
 			{
-				GamePiece = source.GamePiece,
+				GamePieceId = source.GamePieceId,
 				Id = source.Id,
 				IsMachine = source.IsMachine,
 				Name = source.Name
@@ -18,7 +18,7 @@ namespace vc.Components.Accessor.Player.Service.Helpers
 			return target;
 		}
 
-		public static VisionaryCoder.Resource.DataSource.Model.Player Convert(this Interface.Player source)
+		public static VisionaryCoder.Resource.DataSource.Model.Player Convert(this Interface.BoardGamePlayer source)
 		{
 			var target = new VisionaryCoder.Resource.DataSource.Model.Player
 			{

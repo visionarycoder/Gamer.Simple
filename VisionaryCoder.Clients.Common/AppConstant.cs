@@ -1,10 +1,10 @@
-﻿namespace vc.Clients.Common
+﻿namespace VisionaryCoder.Clients.Common
 {
 
     public class AppConstant
     {
 
-        public const string ApplicationName = "vc.Gamer";
+        public const string ApplicationName = "VisionaryCoder.Gamer";
 
     }
 

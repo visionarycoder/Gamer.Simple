@@ -7,20 +7,25 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Engine\BoardGameComposing\**" />
+    <Compile Remove="Engine\CardGameComposing\**" />
     <Compile Remove="Resource\**" />
+    <EmbeddedResource Remove="Engine\BoardGameComposing\**" />
+    <EmbeddedResource Remove="Engine\CardGameComposing\**" />
     <EmbeddedResource Remove="Resource\**" />
+    <None Remove="Engine\BoardGameComposing\**" />
+    <None Remove="Engine\CardGameComposing\**" />
     <None Remove="Resource\**" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Engine\GamePlayRegulating\Interface\" />
-    <Folder Include="Engine\BoardGameComposing\" />
-    <Folder Include="Engine\CardGameComposing\" />
+    <Folder Include="Accessor\Board\Interface\" />
+    <Folder Include="Engine\BoardComposing\Interface\" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\vc.Framework\VisionaryCoder.Framework.csproj" />
-    <ProjectReference Include="..\vc.Resource.DataSource\VisionaryCoder.Resource.DataSource.csproj" />
+    <ProjectReference Include="..\VisionaryCoder.Framework\VisionaryCoder.Framework.csproj" />
+    <ProjectReference Include="..\VisionaryCoder.Resource.DataSource\VisionaryCoder.Resource.DataSource.csproj" />
   </ItemGroup>
 
 </Project>

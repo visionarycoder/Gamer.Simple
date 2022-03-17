@@ -1,7 +1,6 @@
-using System;
 using System.Data;
 
-namespace vc.Clients.ConsoleApp
+namespace VisionaryCoder.Clients.ConsoleApp
 {
 
     public static class ConsoleHelper

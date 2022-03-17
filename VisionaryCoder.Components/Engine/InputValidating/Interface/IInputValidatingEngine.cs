@@ -1,4 +1,4 @@
-﻿namespace vc.Components.Engine.InputValidating.Interface
+﻿namespace VisionaryCoder.Components.Engine.InputValidating.Interface
 {
 	public interface IInputValidatingEngine
 	{

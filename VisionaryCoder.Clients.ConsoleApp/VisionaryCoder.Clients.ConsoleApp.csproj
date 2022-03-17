@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
@@ -21,6 +21,13 @@
     <PackageReference Include="Microsoft.Extensions.Logging.TraceSource" Version="6.0.0" />
     <PackageReference Include="Microsoft.Extensions.Options" Version="6.0.0" />
     <PackageReference Include="Microsoft.Extensions.Options.ConfigurationExtensions" Version="6.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\VisionaryCoder.Clients.Common\VisionaryCoder.Clients.Common.csproj" />
+    <ProjectReference Include="..\VisionaryCoder.Components\VisionaryCoder.Components.csproj" />
+    <ProjectReference Include="..\VisionaryCoder.Framework\VisionaryCoder.Framework.csproj" />
+    <ProjectReference Include="..\VisionaryCoder.Resource.DataSource\VisionaryCoder.Resource.DataSource.csproj" />
   </ItemGroup>
 
 </Project>

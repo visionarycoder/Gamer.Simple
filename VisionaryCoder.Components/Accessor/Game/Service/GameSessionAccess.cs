@@ -1,12 +1,9 @@
-﻿namespace vc.Components.Accessor.Game.Service
+﻿namespace VisionaryCoder.Components.Accessor.Game.Service
 {
-
-	interface IGameAccess
+	
+	internal class GameSessionAccess : IGameSessionAccess
 	{
 
 	}
 
-	internal class GameSessionAccess : IGameAccess
-	{
-	}
 }

@@ -1,6 +1,10 @@
-﻿namespace vc.Components.Engine.GamePlayRegulating.Service
+﻿using VisionaryCoder.Components.Engine.GamePlayRegulating.Interface;
+
+namespace VisionaryCoder.Components.Engine.GamePlayRegulating.Service
 {
-    internal class GamePlayValidatingEngine
-    {
-    }
+	internal class GamePlayValidatingEngine : IGamePlayValidatingEngine
+	{
+
+	}
+
 }

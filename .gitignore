@@ -16,3 +16,5 @@
 /VisionaryCoder.Components/obj
 /VisionaryCoder.Clients.ConsoleApp/obj
 /VisionaryCoder.Clients.Common/obj
+/VisionaryCoder.Clients.Common/bin/Debug/net6.0
+/VisionaryCoder.Resource.DataSource/bin/Debug/net6.0
