@@ -24,29 +24,17 @@ namespace VisionaryCoder.Resource.DataSource
 			if (db.GameDefinitions.Any())
 				return;
 
-			var boardGameDefinition = new BoardGameDefinition
+			var gameDefinition = new GameDefinition
 			{
 				Id = Guid.NewGuid(),
 				Name = "Tic-Tac-Toe",
 				Description = "The Classic three across game.  Also known as 'noughts and crosses' or 'Xs and Os.'",
-				GamePieces = new[] {"X", "O"},
+				GamePieces = new[] { new GamePiece{ Id = Guid.NewGuid(), Label = "X" }, new GamePiece { Id = Guid.NewGuid(), Label = "O" } },
 				MaxNumberOfPlayers = 2,
 				MinNumberOfPlayers = 0,
 				TurnPrompt = "Your turn.",
 			};
-			await db.BoardGameDefinitions.AddAsync(boardGameDefinition);
-
-			var cardGameDefinition = new CardGameDefinition
-			{
-				Id = Guid.NewGuid(),
-				Name = "Tic-Tac-Toe",
-				Description = "The Classic three across game.  Also known as 'noughts and crosses' or 'Xs and Os.'",
-				MaxNumberOfPlayers = 2,
-				MinNumberOfPlayers = 0,
-				TurnPrompt = "Your turn.",
-			};
-			await db.CardGameDefinitions.AddAsync(cardGameDefinition);
-
+			await db.GameDefinitions.AddAsync(gameDefinition);
 			await db.SaveChangesAsync();
 		}
 

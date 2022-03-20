@@ -16,6 +16,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\vc.Framework\VisionaryCoder.Framework.csproj" />
+    <ProjectReference Include="..\VisionaryCoder.Framework\VisionaryCoder.Framework.csproj" />
   </ItemGroup>
 
 </Project>

@@ -1,4 +1,5 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+using VisionaryCoder.Framework.Helpers;
 
 namespace VisionaryCoder.Framework.Tests.Helpers
 {

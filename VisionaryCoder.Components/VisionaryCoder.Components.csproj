@@ -19,11 +19,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Accessor\Board\Interface\" />
-    <Folder Include="Engine\BoardComposing\Interface\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\VisionaryCoder.Framework\VisionaryCoder.Framework.csproj" />
     <ProjectReference Include="..\VisionaryCoder.Resource.DataSource\VisionaryCoder.Resource.DataSource.csproj" />
   </ItemGroup>

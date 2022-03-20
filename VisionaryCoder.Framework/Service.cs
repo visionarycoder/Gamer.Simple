@@ -5,9 +5,9 @@ namespace VisionaryCoder.Framework;
 public abstract class Service<T>
 {
 
-	protected ILogger logger { get; init; }
+	protected ILogger<T> logger { get; init; }
 
-	protected Service(ILogger logger)
+	protected Service(ILogger<T> logger)
 	{
 		this.logger = logger;
 	}

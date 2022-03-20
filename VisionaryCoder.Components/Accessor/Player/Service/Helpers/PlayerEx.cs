@@ -6,26 +6,26 @@ namespace VisionaryCoder.Components.Accessor.Player.Service.Helpers
 	internal static class PlayerEx
 	{
 
-		public static Interface.BoardGamePlayer Convert(this VisionaryCoder.Resource.DataSource.Model.Player source)
+		public static Interface.Player Convert(this VisionaryCoder.Resource.DataSource.Model.Player source)
 		{
-			var target = new Interface.BoardGamePlayer
+			var target = new Interface.Player
 			{
-				GamePieceId = source.GamePieceId,
 				Id = source.Id,
 				IsMachine = source.IsMachine,
-				Name = source.Name
+				Name = source.Name,
+				GamePieceIds = source.GamePieceIds,
 			};
 			return target;
 		}
 
-		public static VisionaryCoder.Resource.DataSource.Model.Player Convert(this Interface.BoardGamePlayer source)
+		public static VisionaryCoder.Resource.DataSource.Model.Player Convert(this Interface.Player source)
 		{
 			var target = new VisionaryCoder.Resource.DataSource.Model.Player
 			{
-				GamePiece = source.GamePiece,
 				Id = source.Id,
 				IsMachine = source.IsMachine,
-				Name = source.Name
+				Name = source.Name,
+				GamePieceIds = source.GamePieceIds,
 			};
 			return target;
 		}
